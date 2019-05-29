@@ -1,8 +1,10 @@
+//include libraries
 #include<DHT.h>      
 #include<ESP8266WiFi.h>
 #include<Wire.h>
 #include<LiquidCrystal_I2C.h>
 String apiKey = "KHAZEV7JTIOORFIJ";
+//define constant and pins
 const char* ssid = "wifi";
 const char* password =  "unknown974";
 const char* server = "api.thingspeak.com";
